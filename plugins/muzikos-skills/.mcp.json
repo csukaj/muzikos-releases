@@ -1,0 +1,34 @@
+{
+  "mcpServers": {
+    "playwright": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@playwright/mcp@0.0.83",
+        "--browser",
+        "msedge",
+        "--headless",
+        "--isolated",
+        "--caps",
+        "pdf",
+        "--output-dir",
+        "${TEMP:-/tmp}/playwright-mcp"
+      ]
+    },
+    "chrome": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@playwright/mcp@0.0.83",
+        "--cdp-endpoint",
+        "http://127.0.0.1:9223"
+      ]
+    },
+    "muzikos": {
+      "command": "python3",
+      "args": [
+        "${CLAUDE_PLUGIN_ROOT}/skills/muzikos/mcp/server.py"
+      ]
+    }
+  }
+}

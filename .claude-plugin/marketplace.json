@@ -1,0 +1,8 @@
+{
+  "name": "muzikos-kiadas",
+  "owner": { "name": "Csuka József", "email": "csukaj@gmail.com" },
+  "plugins": [
+    { "name": "muzikos-skills", "source": "./plugins/muzikos-skills",
+      "description": "A MuzikOS zenei gép kezelése a Claude-ból (hang, Reaper, rendszer)." }
+  ]
+}

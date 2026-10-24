@@ -1,0 +1,9 @@
+{
+  "name": "muzikos-skills",
+  "description": "A MuzikOS zenei gép kezelése a Claude-ból: hangkártya és kis késés (PipeWire, puffer, kattogás keresése, szintmérés bemenetenként), a Reaper vezérlése (sáv a bedugott hangszernek, élesítés, erősítő-szimulátor, felvétel, tempó, metronóm) és az egész Linux karbantartása teljes hozzáféréssel, egy helyi MCP-szerverrel.",
+  "version": "0.31.17",
+  "author": {
+    "name": "Csuka József",
+    "email": "csukaj@gmail.com"
+  }
+}
